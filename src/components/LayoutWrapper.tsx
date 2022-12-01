@@ -19,6 +19,14 @@ const headerNavLinks = [
     title: 'Login',
     href: '/login',
   },
+  {
+    title: 'Encarregado',
+    href: '/encarregado'
+  },
+  {
+    title: 'Gerencia',
+    href:'/gerencia'
+  }
 ]
 
 const LayoutWrapper = ({ children }: Props) => {

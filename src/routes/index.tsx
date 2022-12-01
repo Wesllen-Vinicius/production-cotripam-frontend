@@ -8,14 +8,13 @@ import { ProtectedRoute } from './protectedRoute'
 
 const Rotas: React.FC = () => (
   <Routes>
-    <Route path="/" element={<Home />} />
+    {/* <Route path="/" element={<Home />} /> */}
+    <Route path="/" element={<Login />} />
     <Route path="login" element={<Login />} />
     <Route
       path="encarregado"
       element={
-        <ProtectedRoute>
           <DashBoardEncarregado />
-        </ProtectedRoute>
       }
     />
     <Route path="gerencia" element={<DashBoardGerencia />} />

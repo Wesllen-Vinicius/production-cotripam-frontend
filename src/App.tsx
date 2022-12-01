@@ -11,9 +11,7 @@ function App() {
       <AuthProvider>
         <ThemeProvider>
           <LayoutWrapper>
-            <ProtectedRoute>
               <Rotas />
-            </ProtectedRoute>
           </LayoutWrapper>
         </ThemeProvider>
       </AuthProvider>
